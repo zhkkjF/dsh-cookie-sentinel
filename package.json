@@ -1,0 +1,47 @@
+{
+  "name": "dsh-cookie-sentinel",
+  "version": "1.0.0",
+  "description": "Raises the DSH Desktop Host header budget to 128 KiB and prunes stale dsh-auth cookies only on the launch-token response that mints the replacement, so random-port launches cannot lock the desktop out with HTTP 431.",
+  "type": "module",
+  "license": "MIT",
+  "author": "zhkkjF",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhkkjF/dsh-cookie-sentinel.git"
+  },
+  "homepage": "https://github.com/zhkkjF/dsh-cookie-sentinel#readme",
+  "bugs": {
+    "url": "https://github.com/zhkkjF/dsh-cookie-sentinel/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "assets/icon-180.png",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "desktop",
+    "cookie",
+    "authentication",
+    "431"
+  ],
+  "engines": {
+    "dsh": ">=0.2.1-rc.1"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

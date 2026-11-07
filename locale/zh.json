@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "认证 Cookie 哨兵",
+    "description": "桌面版每次启动都用随机端口，而 Host 的 dsh-auth Cookie 以端口命名；Cookie 又不区分端口，于是每次启动都多堆一条，攒到 16 KiB 请求头上限后返回 431，欢迎页便报 Web authentication failed。本插件把 Host 请求头上限放宽到 128 KiB，并在令牌交换响应里清掉堆积的旧 Cookie。"
+  }
+}

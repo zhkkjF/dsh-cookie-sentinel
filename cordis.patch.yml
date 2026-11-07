@@ -1,0 +1,5 @@
+- insert:
+    - id: dsh-cookie-sentinel
+      name: 'dsh-cookie-sentinel'
+      config:
+        maxHeaderSize: 131072

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Auth Cookie Sentinel",
+    "description": "Desktop launches pick a random port, and the Host's dsh-auth cookie is named after that port. Cookies ignore ports, so every launch accumulated another one until the 16 KiB header limit returned 431 and the welcome screen reported a Web authentication failure. This bundle raises the Host header limit to 128 KiB and prunes the stale cookies on the launch-token response."
+  }
+}

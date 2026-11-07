@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Auth Cookie Guard">
+  <defs>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b6ef5"/>
+      <stop offset="1" stop-color="#7c5cff"/>
+    </linearGradient>
+  </defs>
+  <path d="M32 4 54 12v17c0 13.8-9.2 25.1-22 30C19.2 54.1 10 42.8 10 29V12z" fill="url(#shield)"/>
+  <circle cx="32" cy="30" r="12.5" fill="#ffffff" opacity="0.96"/>
+  <circle cx="27" cy="26" r="2" fill="#3b6ef5"/>
+  <circle cx="36" cy="24.5" r="1.7" fill="#3b6ef5"/>
+  <circle cx="37.5" cy="33" r="2.1" fill="#3b6ef5"/>
+  <circle cx="29" cy="35.5" r="1.6" fill="#3b6ef5"/>
+  <path d="M32 4 54 12v17c0 13.8-9.2 25.1-22 30" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1.5"/>
+</svg>

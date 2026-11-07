@@ -53,7 +53,7 @@ app cannot start.
 From the plugin market, or directly:
 
 ```sh
-dsh plugin add github:zhkkjF/dsh-cookie-sentinel
+dsh plugin --profile <profile> add github:zhkkjF/dsh-cookie-sentinel
 ```
 
 The package is host-only; no build step and no runtime dependencies beyond
